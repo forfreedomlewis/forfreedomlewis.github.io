@@ -515,11 +515,6 @@ $ find public -type f -name '*.html' | xargs ls -l
 -rw-r--r--  1 quoha  staff  78 Sep 29 21:26 public/index.html
 
 $ cat public/index.html 
-<!DOCTYPE html> 
-<html> 
-<body> 
-  <p>hugo says hello!</p> 
-</html>
 ```
 
 #### Live Reload
@@ -528,15 +523,7 @@ Note: If you're running the server with the `--watch` option, you'll see differe
 
 ```
 $ cat public/index.html 
-<!DOCTYPE html> 
-<html> 
-<body> 
-  <p>hugo says hello!</p> 
-<script>document.write('<script src="http://' 
-        + (location.host || 'localhost').split(':')[0] 
-    + ':1313/livereload.js?mindelay=10"></' 
-        + 'script>')</script></body> 
-</html>
+
 ```
 
 When you use `--watch`, the Live Reload script is added by Hugo. Look for live reload in the documentation to see what it does and how to disable it.
