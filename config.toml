@@ -1,7 +1,8 @@
-baseURL = "https://freedomlewis.github.io/blog"
+baseURL = "https://freedomlewis.github.io/blog/"
 languageCode = "en-us"
 title = "Minimal"
 theme = "minimal"
+publicDir = "docs"
 
 [params]
     author = "Calin Tataru"
