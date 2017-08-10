@@ -2,7 +2,7 @@ baseURL = "https://iamlewis.com/"
 languageCode = "en-us"
 title = "Minimal"
 theme = "minimal"
-publishDir = "docs"
+
 
 [params]
     author = "Calin Tataru"
